@@ -1,11 +1,5 @@
 # Shopora – Voice Command Shopping Assistant
 
-[![React](https://img.shields.io/badge/React-18.2-blue.svg)](https://reactjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.4-blue.svg)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38bdf8.svg)](https://tailwindcss.com/)
-[![Node.js](https://img.shields.io/badge/Node.js-Express-green.svg)](https://nodejs.org/)
-[![Tests](https://img.shields.io/badge/Tests-Vitest%20Passed-emerald.svg)](https://vitest.dev/)
-
 > **"Your Shopping List, Just One Voice Away."**
 > A production-quality, responsive web application empowering users to manage grocery lists, search catalogs with natural price filtering, receive purchase-cycle replenishment recommendations, and explore dietary substitutions using spoken voice commands.
 
@@ -51,16 +45,16 @@ flowchart TD
 
 ## Key Features
 
-- 🎙️ **Multilingual Voice Recognition**: Real-time speech recognition in English, Hindi, Hinglish, and Spanish using the browser Web Speech API (`SpeechRecognition` / `webkitSpeechRecognition`).
-- 🧠 **Smart Intent Extraction & Fallback Parser**: Deterministic regex and token normalizer extracting items, quantities, standard units (kg, litres, packets, dozen, boxes), price boundaries, and organic/dietary modifiers with optional AI endpoint fallback.
-- 📦 **Automated Categorization**: Instant auto-classification into 10 categories (Produce, Dairy, Bakery, Beverages, Snacks, Pantry, Meat, Personal Care, Household, Frozen).
-- ⏱️ **Intelligent Replenishment & Low-Stock Alerts**: Tracks purchase intervals and flags due items with transparent reasoning (*"🥛 You may be running low. Bought 4 times with an average 4-day cycle"*).
-- 🌿 **Seasonal Picks & Dietary Substitutions**: Live calendar season-based recommendations (Summer, Monsoon, Winter) with "On Sale" badges and 1-click dietary/out-of-stock alternatives (e.g. Almond Milk for Dairy-free).
-- 🔍 **Natural Voice Search & Price Filters**: Search items with natural language constraints (*"Find organic apples under 200 rupees"*, *"Show shampoo between 300 and 500"*).
-- 📊 **Dynamic Statistics Dashboard**: Live counts for total items, categories, completed items, and budget estimations against user-defined targets.
-- 🔊 **Spoken TTS Feedback**: Real-time audio voice confirmations using `window.speechSynthesis` with instant mute toggle.
-- 🌙 **Dark & Light Mode**: Accessible color contrast and smooth theme switching.
-- 📱 **Mobile-First & Accessible**: Bottom navigation, large touch targets, keyboard navigation, and ARIA labels.
+-  **Multilingual Voice Recognition**: Real-time speech recognition in English, Hindi, Hinglish, and Spanish using the browser Web Speech API (`SpeechRecognition` / `webkitSpeechRecognition`).
+-  **Smart Intent Extraction & Fallback Parser**: Deterministic regex and token normalizer extracting items, quantities, standard units (kg, litres, packets, dozen, boxes), price boundaries, and organic/dietary modifiers with optional AI endpoint fallback.
+-  **Automated Categorization**: Instant auto-classification into 10 categories (Produce, Dairy, Bakery, Beverages, Snacks, Pantry, Meat, Personal Care, Household, Frozen).
+-  **Intelligent Replenishment & Low-Stock Alerts**: Tracks purchase intervals and flags due items with transparent reasoning (*"🥛 You may be running low. Bought 4 times with an average 4-day cycle"*).
+-  **Seasonal Picks & Dietary Substitutions**: Live calendar season-based recommendations (Summer, Monsoon, Winter) with "On Sale" badges and 1-click dietary/out-of-stock alternatives (e.g. Almond Milk for Dairy-free).
+-  **Natural Voice Search & Price Filters**: Search items with natural language constraints (*"Find organic apples under 200 rupees"*, *"Show shampoo between 300 and 500"*).
+-  **Dynamic Statistics Dashboard**: Live counts for total items, categories, completed items, and budget estimations against user-defined targets.
+-  **Spoken TTS Feedback**: Real-time audio voice confirmations using `window.speechSynthesis` with instant mute toggle.
+-  **Dark & Light Mode**: Accessible color contrast and smooth theme switching.
+-  **Mobile-First & Accessible**: Bottom navigation, large touch targets, keyboard navigation, and ARIA labels.
 
 ---
 
