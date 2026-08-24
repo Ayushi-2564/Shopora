@@ -51,16 +51,16 @@ flowchart TD
 
 ## Key Features
 
-- 🎙️ **Multilingual Voice Recognition**: Real-time speech recognition in English, Hindi, Hinglish, and Spanish using the browser Web Speech API (`SpeechRecognition` / `webkitSpeechRecognition`).
-- 🧠 **Smart Intent Extraction & Fallback Parser**: Deterministic regex and token normalizer extracting items, quantities, standard units (kg, litres, packets, dozen, boxes), price boundaries, and organic/dietary modifiers with optional AI endpoint fallback.
-- 📦 **Automated Categorization**: Instant auto-classification into 10 categories (Produce, Dairy, Bakery, Beverages, Snacks, Pantry, Meat, Personal Care, Household, Frozen).
-- ⏱️ **Intelligent Replenishment & Low-Stock Alerts**: Tracks purchase intervals and flags due items with transparent reasoning (*"🥛 You may be running low. Bought 4 times with an average 4-day cycle"*).
-- 🌿 **Seasonal Picks & Dietary Substitutions**: Live calendar season-based recommendations (Summer, Monsoon, Winter) with "On Sale" badges and 1-click dietary/out-of-stock alternatives (e.g. Almond Milk for Dairy-free).
-- 🔍 **Natural Voice Search & Price Filters**: Search items with natural language constraints (*"Find organic apples under 200 rupees"*, *"Show shampoo between 300 and 500"*).
-- 📊 **Dynamic Statistics Dashboard**: Live counts for total items, categories, completed items, and budget estimations against user-defined targets.
-- 🔊 **Spoken TTS Feedback**: Real-time audio voice confirmations using `window.speechSynthesis` with instant mute toggle.
-- 🌙 **Dark & Light Mode**: Accessible color contrast and smooth theme switching.
-- 📱 **Mobile-First & Accessible**: Bottom navigation, large touch targets, keyboard navigation, and ARIA labels.
+-  **Multilingual Voice Recognition**: Real-time speech recognition in English, Hindi, Hinglish, and Spanish using the browser Web Speech API (`SpeechRecognition` / `webkitSpeechRecognition`).
+-  **Smart Intent Extraction & Fallback Parser**: Deterministic regex and token normalizer extracting items, quantities, standard units (kg, litres, packets, dozen, boxes), price boundaries, and organic/dietary modifiers with optional AI endpoint fallback.
+-  **Automated Categorization**: Instant auto-classification into 10 categories (Produce, Dairy, Bakery, Beverages, Snacks, Pantry, Meat, Personal Care, Household, Frozen).
+-  **Intelligent Replenishment & Low-Stock Alerts**: Tracks purchase intervals and flags due items with transparent reasoning (*"🥛 You may be running low. Bought 4 times with an average 4-day cycle"*).
+-  **Seasonal Picks & Dietary Substitutions**: Live calendar season-based recommendations (Summer, Monsoon, Winter) with "On Sale" badges and 1-click dietary/out-of-stock alternatives (e.g. Almond Milk for Dairy-free).
+-  **Natural Voice Search & Price Filters**: Search items with natural language constraints (*"Find organic apples under 200 rupees"*, *"Show shampoo between 300 and 500"*).
+-  **Dynamic Statistics Dashboard**: Live counts for total items, categories, completed items, and budget estimations against user-defined targets.
+-  **Spoken TTS Feedback**: Real-time audio voice confirmations using `window.speechSynthesis` with instant mute toggle.
+-  **Dark & Light Mode**: Accessible color contrast and smooth theme switching.
+-  **Mobile-First & Accessible**: Bottom navigation, large touch targets, keyboard navigation, and ARIA labels.
 
 ---
 
@@ -195,12 +195,12 @@ npm test
 ```
 
 Test coverage includes:
-- ✅ Natural language intent parsing for Add, Remove, Update, Complete, and Search
-- ✅ Quantity & unit normalizations (word numbers, fractions, metric units)
-- ✅ Multilingual commands (English, Hindi, Hinglish, Spanish)
-- ✅ Automatic category assignment
-- ✅ Historical replenishment interval calculation
-- ✅ Seasonal detection and recommendations
+-  Natural language intent parsing for Add, Remove, Update, Complete, and Search
+-  Quantity & unit normalizations (word numbers, fractions, metric units)
+-  Multilingual commands (English, Hindi, Hinglish, Spanish)
+-  Automatic category assignment
+-  Historical replenishment interval calculation
+-  Seasonal detection and recommendations
 
 ---
 
@@ -230,11 +230,11 @@ Test coverage includes:
 
 | Browser | Speech Recognition | Speech Synthesis | Fallback Support |
 |---|---|---|---|
-| **Google Chrome** | ✅ Supported | ✅ Supported | Full Voice & Audio |
-| **Microsoft Edge** | ✅ Supported | ✅ Supported | Full Voice & Audio |
-| **Brave** | ✅ Supported (allow permissions) | ✅ Supported | Full Voice & Audio |
-| **Safari / iOS** | ⚠️ Partial (`webkitSpeechRecognition`) | ✅ Supported | Text & Simulation Fallback |
-| **Firefox** | ❌ API flag required | ✅ Supported | Text & Simulation Fallback |
+| **Google Chrome** |  Supported |  Supported | Full Voice & Audio |
+| **Microsoft Edge** |  Supported |  Supported | Full Voice & Audio |
+| **Brave** | Supported (allow permissions) | Supported | Full Voice & Audio |
+| **Safari / iOS** |  Partial (`webkitSpeechRecognition`) | Supported | Text & Simulation Fallback |
+| **Firefox** |  API flag required |  Supported | Text & Simulation Fallback |
 
 > *Note*: When speech recognition is blocked or unsupported, Shopora gracefully provides instant interactive sample voice prompt buttons and a manual command input so all functionality remains 100% accessible.
 
