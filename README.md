@@ -1,5 +1,10 @@
 # Shopora – Voice Command Shopping Assistant
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 2be8c9338204152981a3019486c7303e089c7c13
 > **"Your Shopping List, Just One Voice Away."**
 > A production-quality, responsive web application empowering users to manage grocery lists, search catalogs with natural price filtering, receive purchase-cycle replenishment recommendations, and explore dietary substitutions using spoken voice commands.
 
