@@ -1,15 +1,15 @@
 # Shopora – Voice Command Shopping Assistant
 
-[![React](https://img.shields.io/badge/React-18.2-blue.svg)](https://reactjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.4-blue.svg)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38bdf8.svg)](https://tailwindcss.com/)
-[![Node.js](https://img.shields.io/badge/Node.js-Express-green.svg)](https://nodejs.org/)
-[![Tests](https://img.shields.io/badge/Tests-Vitest%20Passed-emerald.svg)](https://vitest.dev/)
 
 > **"Your Shopping List, Just One Voice Away."**
 > A production-quality, responsive web application empowering users to manage grocery lists, search catalogs with natural price filtering, receive purchase-cycle replenishment recommendations, and explore dietary substitutions using spoken voice commands.
 
 ---
+## Live Deployment
+
+- **Frontend (Vercel):** https://backend-nine-olive-49.vercel.app/
+- **Backend API (Render):** https://shopora-backend-2dgh.onrender.com
+
 
 ## Assessment Approach (Under 200 Words)
 
